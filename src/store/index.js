@@ -2,7 +2,7 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 
 import modules from '@/store/modules';
-
+import getters from './getters'
 Vue.use(Vuex);
 
 const store = new Vuex.Store({
@@ -10,8 +10,7 @@ const store = new Vuex.Store({
   },
   mutations: {
   },
-  getters: {
-  },
+  getters: getters,
   modules,
   strict: process.env.NODE_ENV !== 'production'
 });

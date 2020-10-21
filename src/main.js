@@ -6,7 +6,7 @@ import '@/filters';
 
 // 阻止启动生产消息
 Vue.config.productionTip = false;
-
+import '@/icons' // icon
 // 自定义指令
 import Directives from '@/directives/index';
 Vue.use(Directives);
