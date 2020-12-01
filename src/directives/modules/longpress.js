@@ -66,6 +66,6 @@ export default {
       el.addEventListener('mouseout', cancel);
       el.addEventListener('touchend', cancel);
       el.addEventListener('touchcancel', cancel);
-    },
-  },
+    }
+  }
 };

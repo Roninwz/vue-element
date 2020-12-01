@@ -22,6 +22,6 @@ export default {
           binding.value();
         }, time);
       });
-    },
-  },
+    }
+  }
 };

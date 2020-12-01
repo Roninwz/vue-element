@@ -1,4 +1,3 @@
-
 /**
  * @author Roninwz
  * function: 注册指令文件
@@ -13,5 +12,5 @@ export default {
         Vue.directive(item.key, item.func);
       });
     }
-  },
+  }
 };

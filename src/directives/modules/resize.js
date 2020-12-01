@@ -27,7 +27,7 @@ export default {
       // 存储监听窗口缩放事件的参数，方便在unbind钩子函数中解除事件绑定的时候使用到
       el._onResize = {
         callback,
-        options,
+        options
       };
       if (!binding.modifiers || !binding.modifiers.quiet) {
         onResize();
@@ -39,6 +39,6 @@ export default {
         window.removeEventListener('resize', callback, options);
         delete el._onResize;
       }
-    },
-  },
+    }
+  }
 };
