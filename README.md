@@ -1,4 +1,4 @@
-# vue2-element-template
+# vue 基于 element 的 PC 端模板
 
 ## Build Setup
 
